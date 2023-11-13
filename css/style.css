@@ -16,9 +16,10 @@ nav a {
   float: center;
   display: block;
   text-decoration: none;
-  padding: 2%;
+  padding: 20px;
   text-align: center;
   color: #ddc2d4;
+  padding: 2%;
 }
 
 body{
