@@ -4,7 +4,9 @@ html {
 
 nav {
   background-color: #861657;
-  justify-content: center;
+  overflow: hidden;
+  display: flex;
+  position: fixed;
   width: 100%;
   top: 0;
 }
