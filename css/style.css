@@ -8,5 +8,7 @@ nav {
 
 section {
   background-color: rgb(119, 90, 149);
+  display: block;
+  margin: 2% auto;
   max-width: 900px;
 }
