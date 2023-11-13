@@ -1,9 +1,9 @@
 html {
-  background-color:rgb(109, 151, 188);
+  background-color: #aa4465;;
 }
 
 nav {
-  background-color: rgb(93, 50, 113);
+  background-color: #93e1d8;
 }
 
 body{
@@ -11,7 +11,7 @@ body{
 }
 
 section {
-  background-color: rgb(161, 140, 184);
+  background-color: #ffa69e;
   display: block;
   margin: 2% auto;
   max-width: 900px;
