@@ -10,6 +10,7 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 0;
 }
 
 nav a {
@@ -52,6 +53,7 @@ img {
   padding-bottom: 56.25%;
   padding-top: 25px;
   height: 0;
+  z-index: -1;
 }
 
 .videowrapper iframe {
