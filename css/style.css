@@ -6,6 +6,7 @@ nav {
   background-color: #861657;
   overflow: hidden;
   display: flex;
+  justify-content: center;
   position: fixed;
   width: 100%;
   top: 0;
