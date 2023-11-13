@@ -6,6 +6,10 @@ nav {
   background-color: rgb(93, 50, 113);
 }
 
+body{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 section {
   background-color: rgb(161, 140, 184);
   display: block;
