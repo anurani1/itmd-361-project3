@@ -31,7 +31,11 @@ section {
   padding: 20px;
 }
 
-img{
+img {
   max-width: 800px;
   max-height: 800px;
+}
+
+ul {
+  list-style-type: none;
 }
