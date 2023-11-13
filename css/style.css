@@ -4,6 +4,17 @@ html {
 
 nav {
   background-color: #861657;
+  width: 100%;
+  top: 0;
+}
+
+nav a {
+  float: center;
+  display: block;
+  text-decoration: none;
+  padding: 14px;
+  text-align: center;
+  color: #ddc2d4;
 }
 
 body{
