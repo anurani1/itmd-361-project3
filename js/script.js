@@ -3,12 +3,12 @@
 let slide = 1;
 showSlides(slide);
 
-function plusSlides(n) {
-  showSlides(slide += n);
+function plusSlides(num) {
+  showSlides(slide += num);
 }
 
-function currentSlide(n) {
-  showSlides(slide = n);
+function currentSlide(num) {
+  showSlides(slide = num);
 }
 
 function showSlides(num) {
@@ -20,11 +20,11 @@ function showSlides(num) {
   if (num > slides.length) {slide = 1}    
   if (num < 1) {slide = slides.length}
   for (i = 0; i < slides.length; i++) {
-    slides[i].styleIndex.display = "none";  
+    slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slide-1].styleIndex.display = "block";  
+  slides[slide-1].style.display = "block";  
   dots[slide-1].className += " active";
 }
