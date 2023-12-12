@@ -65,3 +65,10 @@ img {
 ul, li {
   list-style-type: none;
 }
+
+@media (max-width: 800px) {
+  section {
+    background-color: #ffd6d2;
+    color: #091826;
+  }
+}
