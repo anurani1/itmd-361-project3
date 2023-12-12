@@ -80,7 +80,7 @@ ul, li {
   }
 }
 
-@media (max-width: 500) {
+@media (max-width: 500px) {
   section {
     background-color: #fff398;
     color: #091826;
