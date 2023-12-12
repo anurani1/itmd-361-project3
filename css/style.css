@@ -70,5 +70,12 @@ ul, li {
   section {
     background-color: #b0ffb1;
     color: #091826;
+    font-size: 24px;
+  }
+  html {
+    background-color: #308568;
+  }
+  nav {
+    background-color: #194a56;
   }
 }
