@@ -1,14 +1,14 @@
 // W3 Slideshow
 
-let slideIndex = 1;
-showSlides(slideIndex);
+let slide = 1;
+showSlides(slide);
 
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  showSlides(slide += n);
 }
 
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  showSlides(slide = n);
 }
 
 function showSlides(num) {
@@ -17,14 +17,14 @@ function showSlides(num) {
   if (slides.length === 0)
     return;
   let dots = document.getElementsByClassName("dot");
-  if (num > slides.length) {slideIndex = 1}    
-  if (num < 1) {slideIndex = slides.length}
+  if (num > slides.length) {slide = 1}    
+  if (num < 1) {slide = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].styleIndex.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].styleIndex.display = "block";  
-  dots[slideIndex-1].className += " active";
+  slides[slide-1].styleIndex.display = "block";  
+  dots[slide-1].className += " active";
 }
