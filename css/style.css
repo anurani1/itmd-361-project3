@@ -79,3 +79,17 @@ ul, li {
     background-color: #194a56;
   }
 }
+
+@media (max-width: 500) {
+  section {
+    background-color: #fff398;
+    color: #091826;
+  }
+  html {
+    background-color: #ee993e;
+  }
+  nav {
+    background-color: #b84919;
+    font-size: x-large;
+  }
+}
